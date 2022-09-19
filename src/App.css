@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap&family=Permanent+Marker&display=swap');
 
 body{
   margin: 0;
@@ -9,7 +9,7 @@ body{
 header {
   display: flex;
   align-items: center;
-  background: linear-gradient(to right, #711F8D, #A626D3);
+  background: linear-gradient(to right, #711F8D, #c431fa);
   padding: 0 2rem;
 }
 
@@ -26,6 +26,12 @@ header {
 
 .header-txt{
   margin-left: auto;
+}
+
+.meme-it{
+  text-transform: uppercase;
+  color: #711F8D;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .meme-form{
