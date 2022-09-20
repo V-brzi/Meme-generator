@@ -124,6 +124,7 @@ main{
 @media(max-width: 430px){
   header{
     flex-direction: column;
+    text-align: center;
     padding: 1rem 2rem;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
