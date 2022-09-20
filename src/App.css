@@ -121,6 +121,25 @@ main{
   top: 89%;
 }
 
+@media(max-width: 430px){
+  header{
+    flex-direction: column;
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background: linear-gradient(to bottom, #711F8D, #A626D3);
+  }
+  .header-title{
+    margin: .2rem;
+  }
+  .header-txt{
+    margin: 0;
+  }
+  .meme-icon{
+    margin: 0;
+  }
+}
+
 @media(max-width: 800px){
   .meme-form{
     display: flex;
